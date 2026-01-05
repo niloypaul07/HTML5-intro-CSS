@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <label for="Search">Search For Images:</label>
+        <input type="search" id="search-picture">
+        <Button id="search-picture">Search</Button>
+        <br><br>
+        <img src="Images/dev img.png" alt="Developer Image" width="300px" height="300px">
+        <hr>
+
+        <h3>Feedback Form</h3>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email" >Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <select id="subject" name="subject" required>
+            <option value="">--Please choose an option--</option>
+            <option value="Excelent">Excelent</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            </select><br><br>
+        
+        <label for="message">Comments:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    
+</body>
+</html>
